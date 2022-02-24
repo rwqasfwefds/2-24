@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dom_underline.css">
+    <script src="js/dom_underline.js"></script>
+    <!-- <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            font-size: 20px;
+            line-height: 35px; /* 줄과 줄 사이의 높이 */
+        }
+        .check{
+            color: #999;
+            font-size: 20px;
+            margin-right: 25px;
+        }
+    </style> -->
+</head>
+<body>
+    <h1>할 일 목록</h1>
+    <ul>
+        <li><span class="check">&check;</span>할 일1</li>
+        <li><span class="check">&check;</span>할 일2</li>
+        <li><span class="check">&check;</span>할 일3</li>
+        <li><span class="check">&check;</span>할 일4</li>
+        <li><span class="check">&check;</span>할 일5</li>
+    </ul>
+    <!-- <script>
+        let checks = document.querySelectorAll('.check');
+        for(let i = 0; i < checks.length; i++){
+            checks[i].addEventListener('click',function(){
+                this.style.color = '#ccc';
+                this.parentNode.style.color = '#ccc'; /* parentNode=부모 태그 접근 (부모 태그의 스타일을 바꿈) */
+                this.parentNode.style.textDecoration = 'line-through';
+            })
+        }
+    </script> -->
+    
+</body>
+</html>
